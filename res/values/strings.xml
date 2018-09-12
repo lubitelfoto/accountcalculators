@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Калькуляторы бухгалтера</string>
+    <string name="NDS_calc_text">Рассчет НДС</string>
+    <string name="vacation_calc_text">Отпускные</string>
+    <string name="penality_calc_text">Пени</string>
+    <string name="NDS_calc_hint_no_NDS">Сумма без НДС</string>
+    <string name="NDS_calc_hint_NDS">Ставка НДС</string>
+    <string name="NDS_calc_hint_sum">Сумма с НДС</string>
+    <string name="NDS_calc_hint_tax_value">В том числе НДС</string>
+</resources>
