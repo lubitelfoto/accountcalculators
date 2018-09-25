@@ -7,4 +7,9 @@
     <string name="NDS_calc_hint_NDS">Ставка НДС</string>
     <string name="NDS_calc_hint_sum">Сумма с НДС</string>
     <string name="NDS_calc_hint_tax_value">В том числе НДС</string>
+    <string name="vacation_calc_vac_button">Расчет отпуска</string>
+    <string name="vacation_calc_comp_button">Расчет компенсации</string>
+    <string name="vacation_calc_time_more_button">Сотрудник отработал месяц и более</string>
+    <string name="vacation_calc_time_month_button">Сотрудник отработал менее месяца</string>
+    <string name="vacation_calc_time_empty_button">Сотрудник не работал ни одного дня</string>
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/btn_vacation_vac"
+        style="@style/CardStyle"
+        >
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/vacation_calc_vac_button"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/btn_vacation_comp"
+        style="@style/CardStyle"
+        >
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/vacation_calc_comp_button"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
