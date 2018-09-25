@@ -14,11 +14,14 @@ public class NewCalcActivity extends SingleFragmentActivity {
                  fragment = new CalcListFragment();
                 break;
 
-             case AccountCalcConstant.NDS_FRAGMENT_ID:
+            case AccountCalcConstant.NDS_FRAGMENT_ID:
                  fragment = new NDSCalcFragment();
                  break;
 
-             default:
+            case AccountCalcConstant.VACATION_FRAGMENT_ID:
+                     fragment = new CalcListFragment();
+                 break;
+            default:
                 fragment = new CalcListFragment();
                 break;
         }

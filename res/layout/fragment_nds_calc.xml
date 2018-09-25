@@ -2,8 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".NDSCalcFragment">
+    android:layout_height="match_parent">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -75,7 +74,7 @@
 
                 <EditText
                     style="@style/CalcStyle"
-                    android:id="@+id/NDS_calc_tax_value"
+                    android:id="@+id/NDS_calc_tax_sum"
                     android:inputType="numberDecimal"
                     android:hint="@string/NDS_calc_hint_tax_value"/>
             </android.support.design.widget.TextInputLayout>

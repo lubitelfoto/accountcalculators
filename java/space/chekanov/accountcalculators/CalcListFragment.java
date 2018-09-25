@@ -13,7 +13,7 @@ public class CalcListFragment extends Fragment{
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_calc_list, container, false);
 
         CardView ndsCalc = view.findViewById(R.id.btn_nds_calc);
@@ -22,6 +22,16 @@ public class CalcListFragment extends Fragment{
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), NewCalcActivity.class);
                 intent.putExtra(AccountCalcConstant.FRAGMENT_ID, AccountCalcConstant.NDS_FRAGMENT_ID);
+                startActivity(intent);
+            }
+        });
+
+        CardView vacationCalc = view.findViewById(R.id.btn_vacation_calc);
+        vacationCalc.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), NewCalcActivity.class);
+                intent.putExtra(AccountCalcConstant.FRAGMENT_ID, AccountCalcConstant.VACATION_FRAGMENT_ID);
                 startActivity(intent);
             }
         });
